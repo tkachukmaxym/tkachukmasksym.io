@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.btn-read-more {
+    background-color: #79a859;
+    color: white !important;
+    padding: 12px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn-read-more:hover {
+    background-color: #608a46;
+    text-decoration: none;
+}
+
+.sect-title {
+    font-size: 38px;
+    color: #2F4F4F;
+    font-weight: bold;
+}
+
+.dots {
+    color: #79a859;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    line-height: 0.5;
+}

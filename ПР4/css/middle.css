@@ -1,0 +1,95 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-rounded-pill {
+    background-color: #5e8e45 !important;
+    border: none !important;
+    color: white !important;
+    border-radius: 50px !important;
+    /* Робить її овальною */
+    font-weight: bold;
+    padding: 12px 40px !important;
+    transition: 0.3s ease;
+}
+
+.btn-rounded-pill:hover {
+    background-color: #4a6f3a !important;
+}
+
+.clickable-label {
+    user-select: none;
+}
+
+.captcha-text {
+    font-family: serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #555;
+}
+
+.address-section-wide {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 40px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.address-title {
+    color: #8db543;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.white-header {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.address-underline {
+    width: 120px;
+    height: 1px;
+    background-color: #8db543;
+    margin: 0 auto 20px auto;
+}
+
+.address-text {
+    color: #444;
+    line-height: 1.6;
+}
+
+.green-text {
+    color: #8db543;
+    font-weight: bold;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    border-bottom: 1.5px solid #6d5b4b;
+    background: transparent;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+}

@@ -1,0 +1,104 @@
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    border-bottom: 1.5px solid #6d5b4b;
+    background: transparent;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+}
+
+.middle-section {
+    background-color: #fdf1f1 !important;
+}
+
+.section-title {
+    font-family: 'Roboto Slab', serif;
+    color: #435154;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.green-crosses-divider {
+    width: 60px;
+    height: 10px;
+    background-image: url('../images/Union.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 30px 0;
+}
+
+.main-description p {
+    font-size: 14px;
+    color: #435154;
+    line-height: 1.6;
+}
+
+.accent-quote,
+.distributor-text {
+    border-left: 4px solid #f29b97;
+    padding-left: 20px;
+    color: #435154;
+    font-size: 14px;
+}
+
+.distributor-text {
+    font-weight: bold;
+}
+
+.white-card-content {
+    background-color: #ffffff !important;
+    padding: 40px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.info-block h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    color: #435154;
+    font-weight: bold;
+    margin-bottom: 12px;
+    min-height: 50px;
+}
+
+.card-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.info-block p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #435154;
+    text-align: left;
+}
+
+.products-section {
+    background-color: #fdf1f1;
+    padding-top: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}

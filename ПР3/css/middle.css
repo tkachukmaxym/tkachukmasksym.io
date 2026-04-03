@@ -1,0 +1,166 @@
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    border-bottom: 1.5px solid #6d5b4b;
+    background: transparent;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+}
+
+.main-content-wrapper {
+    background-color: #f7f7f7c5;
+    background-image: url('../images/Union1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 55% auto;
+    background-attachment: scroll;
+    min-height: 900px;
+}
+
+.back-link {
+    color: #5d8e3e !important;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.product-info-grid {
+    display: grid;
+    grid-template-columns: 650px 450px;
+    gap: 40px;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.product-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #444;
+    margin: 10px 0 5px 0;
+}
+
+.product-subtitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #5d8e3e;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.union-icons {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.union-img {
+    width: 46px;
+    height: auto;
+    display: block;
+}
+
+.section-divider {
+    font-family: 'Roboto Slab', serif;
+    color: #5d8e3e;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5d8e3e;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+
+.chars-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+}
+
+.resistance-box {
+    grid-column: 1 / span 2;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.info-block h4,
+.char-row h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #5d8e3e;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.info-block ul,
+.char-row ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info-block li,
+.char-row li {
+    font-size: 15px;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.info-block li::before,
+.char-row li::before {
+    content: "•";
+    color: #5d8e3e;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 22px;
+    top: -4px;
+}
+
+.photo-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-wrap {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.pdf-btn img {
+    max-width: 210px;
+}
+
+.plain-text {
+    font-size: 15px;
+    color: #333;
+}
+
+.characteristics-section {
+    margin-top: 40px;
+}

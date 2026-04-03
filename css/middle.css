@@ -1,0 +1,171 @@
+.sect-title {
+    font-family: 'Roboto Slab', serif;
+    color: #3e4b5b;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.sect-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3e4b5b;
+    max-width: 440px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../images/hero_bg.png') no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    border-bottom: 1.5px solid #6d5b4b;
+    background: transparent;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+}
+
+.hero-content {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero-title {
+    color: #6d5b4b;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.products-strip-section {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.full-products-img {
+    max-width: 1300px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.vision-mission {
+    position: relative;
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.leaf-background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/leaf_bg.png') no-repeat center top;
+    background-size: 75% auto;
+    z-index: -1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.divider-icon {
+    display: block;
+    width: 65px;
+    height: 12px;
+    background-image: url('../images/Union.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+
+.vision-divider,
+.mission-divider {
+    margin-left: -2px;
+}
+
+.main-img {
+    position: relative;
+    z-index: 3;
+    max-width: 90%;
+    filter: drop-shadow(0 20px 25px rgba(0, 0, 0, 0.22));
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 80px;
+    filter: drop-shadow(0 6px 15px rgba(0, 0, 0, 0.25));
+}
+
+.main-activities {
+    background-color: #ebebeb;
+    padding: 70px 0;
+}
+
+.activities-title {
+    font-family: 'Roboto Slab', serif;
+    color: #3e4b5b;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.activity-img-wrapper {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.activity-img {
+    max-height: 100%;
+    width: auto;
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.18));
+}
+
+.activity-subtitle {
+    color: #5b8c51;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.activity-line {
+    width: 150px;
+    height: 1px;
+    background-color: #5b8c51;
+    margin: 10px auto;
+}
+
+.activity-desc {
+    font-family: 'Roboto Slab', serif;
+    color: #4a4a4a;
+    font-size: 13.5px;
+    line-height: 1.4;
+}
